@@ -1,0 +1,110 @@
+.card{
+    background-color: white;
+    width: 90%;
+    min-height: 18%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    padding: 0 2%;
+}
+
+.cardRevelado{
+    background-color: #FFFFD4;
+    width: 90%;
+    min-height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 2% 2%;
+}
+
+.texto{
+    font-family: 'Recursive', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #333333;
+}
+
+.pergunta{
+    font-family: 'Recursive', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.alternativas{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.naoLembro{
+    width: 30%;
+    background-color: #FF3030;
+    font-family: 'Recursive', sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    color: white;
+    border: none;    
+    border-radius: 5px;
+}
+
+.quaseNaoLembro{
+    width: 30%;
+    background-color: #FF922E;
+    font-family: 'Recursive', sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;    
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.lembrei{
+    width: 30%;
+    background-color: #2FBE34;
+    font-family: 'Recursive', sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    color: white;
+    border: none;    
+    border-radius: 5px;
+}
+
+.comecar{
+    width: 20px;
+    height: 23px;
+}
+
+.revelar{
+    width: 30px;
+    height: 20px;
+}
+
+.cardRespondido{
+    background-color: white;
+    width: 90%;
+    min-height: 18%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    padding: 0 2%;
+}
+
+.textoErrado{
+    text-decoration: line-through;
+    color: #FF3030;
+}
+
+.textoQuase{
+    text-decoration: line-through;
+    color: #FF922E;
+}
+
+.textoCerto{
+    text-decoration: line-through;
+    color: #2FBE34;
+}
